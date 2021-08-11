@@ -1,0 +1,22 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+img{
+    display: none;
+}
+
+
+#gameCanvas{
+    border : 5px solid greenyellow;
+}
